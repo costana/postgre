@@ -1,0 +1,34 @@
+version: '3.4'
+
+services: 
+    db_postgres:
+        image: postgres
+        environment: 
+            - POSTGRES_DB=ticoCommerce
+            - POSTGRES_USER=tico
+            - POSTGRES_PASSWORD=tico123            
+        volumes: 
+            - postgres_data:/var/lib/postgresql/data
+            - ./scripts/:/docker-entrypoint-initdb.d
+        networks: 
+            - db
+    db_ui:
+        image: dpage/pgadmin4
+        environment:
+            - PGADMIN_DEFAULT_EMAIL=tico@xxx.com
+            - PGADMIN_DEFAULT_PASSWORD=tico123
+        volumes: 
+            - pgadmin_data:/var/lib/pgadmin
+        ports: 
+            - 80:80
+        networks: 
+            - db
+volumes:
+    postgres_data:
+        driver: local
+    pgadmin_data:
+            driver: local
+networks: 
+    db:
+        driver: bridge
+
