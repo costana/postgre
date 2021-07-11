@@ -10,6 +10,7 @@ Ao iniciar o Postgre será criado os itens abaixo:
         1 tabela chamada produto
         2 inserts na tabela produto
 
+
 Para executar o projeto:
 Via termial e no diretório do projeto digite: docker-compose up
 Após isso PGAdmin estará acessivel pela porta 80 e você poderá configurar o acesso ao banco de dados por aqui. 
