@@ -1,4 +1,4 @@
-# postgre
+# Subindo um postgre local
 Inicializando um server do Postgre local e o PGAdmin para gerenciamento visual do Postgre
 
 Ao iniciar o Postgre será criado os itens abaixo:
