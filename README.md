@@ -1,7 +1,7 @@
 # Subindo um PostgreSQL no docker
 <p>Inicializando um server do Postgre local e o PGAdmin para gerenciamento visual do Postgre</p>
 
-<p>Para subir o projeto, navegue pelo terminal até o diretório do projeto e digite **docker-compose up** </p>
+<p>Para subir o projeto, navegue pelo terminal até o diretório do projeto e digite: docker-compose up </p>
 
 <p>Ao iniciar o Postgre será criado os itens abaixo:</p>
 <p>    Banco de dados chamado ticoCommerce</p>
