@@ -1,4 +1,4 @@
-# Subindo um postgre local
+# Subindo um PostgreSQL no docker
 <p>Inicializando um server do Postgre local e o PGAdmin para gerenciamento visual do Postgre</p>
 
 <p>Ao iniciar o Postgre será criado os itens abaixo:</p>
