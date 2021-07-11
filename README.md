@@ -1,17 +1,17 @@
 # Subindo um postgre local
-Inicializando um server do Postgre local e o PGAdmin para gerenciamento visual do Postgre
+<p>Inicializando um server do Postgre local e o PGAdmin para gerenciamento visual do Postgre</p>
 
-Ao iniciar o Postgre será criado os itens abaixo:
-    Banco de dados chamado ticoCommerce
-    Usuario do banco: tico 
-    Password: tico123
-    O script sql localizado no diretório ./scripts será executado para criar:
-        1 schema chamado loja
-        1 tabela chamada produto
-        2 inserts na tabela produto
+<p>Ao iniciar o Postgre será criado os itens abaixo:</p>
+<p>    Banco de dados chamado ticoCommerce</p>
+<p>    Usuario do banco: tico </p>
+<p>    Password: tico123</p>
+<p>    O script sql localizado no diretório ./scripts será executado para criar:</p>
+<p>        1 schema chamado loja</p>
+<p>        1 tabela chamada produto</p>
+<p>        2 inserts na tabela produto</p>
 
 
-Para executar o projeto:
-Via termial e no diretório do projeto digite: docker-compose up
-Após isso PGAdmin estará acessivel pela porta 80 e você poderá configurar o acesso ao banco de dados por aqui. 
-Verifique o aquivo docker-compose.yml para mais detalhes e para ajustar nome de banco/usuario e script conforme sua necessidade.
+<p>Para executar o projeto:</p>
+<p>Via termial e no diretório do projeto digite: docker-compose up</p>
+<p>Após isso PGAdmin estará acessivel pela porta 80 e você poderá configurar o acesso ao banco de dados por aqui. </p>
+<p>Verifique o aquivo docker-compose.yml para mais detalhes e para ajustar nome de banco/usuario e script conforme sua necessidade.</p>
